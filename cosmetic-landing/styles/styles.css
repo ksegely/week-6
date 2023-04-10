@@ -1,0 +1,406 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    min-height: 100%;
+}
+
+.sale {
+    width: 337px;
+    margin: 14px auto;
+}
+
+.sale h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #B88987;
+}
+
+.sale h3:hover {
+    opacity: 0.5;
+}
+
+.header-background {
+    background-image: url(/img/header-img.png);
+    height: 751px;
+}
+
+.header-menu {
+    height: 91.72px;
+    padding-left: 33px;
+    padding-right: 36.72px;
+    background: #E6E1D6;
+    opacity: 0.9;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 4fr 3fr 2fr 1fr;
+}
+
+.logo {
+    justify-self: center;
+}
+
+.shopping {
+    justify-self: end;
+}
+
+.burger {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.burger img {
+    margin-bottom: 5px;
+}
+
+.burger img:last-child {
+    margin-bottom: 0;
+}
+
+.header-form {
+    display: grid;
+    grid-auto-flow: column
+}
+
+.header-form input {
+    width: 274px;
+    height: 48px;
+    background: #F9F9F9;
+}
+
+.header-form button {
+    display: block;
+    text-align: left;
+    width: 90px;
+    height: 100%;
+    margin: 0;
+    padding: 14px 12px 14px 49px;
+}
+
+/* ---------------------------MAIN----------------------------------*/
+.feeling {
+    background-color: #E6E1D6;
+    padding: 200px 160px;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+}
+
+.feeling h1 {
+    font-size: 42px;
+    line-height: 59px;
+    padding-bottom: 41px;
+}
+
+.feeling p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.essentials h2 {
+    margin-top: 88px;
+    margin-bottom: 49.5px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29px;
+    text-align: center;
+    color: #B88987;
+}
+
+.essentials-grid {
+    margin-left: 37.88px;
+    margin-right: 39.28px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.essentials-item {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.essentials-item:last-child {
+    margin-bottom: 100.5px;
+}
+
+.essentials-item-name {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.essentials-item-name h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.essentials-item-price {
+    margin-bottom: 5px;
+}
+
+.essentials-item-price p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.essentials-item-reviews p {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+}
+
+.free-from {
+    background-color: #CFACAD;
+    display: grid;
+    grid-template: 1fr / 720px 1fr;
+}
+
+.free-from-img {
+    height: 1080px;
+}
+
+.free-from-info {
+    padding-top: 359px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.free-from-info-title h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.free-from-info-list {
+    margin-top: 33.91px;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.free-from-info-list a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+.free-from-info-list a:hover {
+    opacity: 0.7;
+}
+
+.free-from-info-list a:last-child {
+    padding-bottom: 42.09px;
+}
+
+.free-from-btn {
+    background-color: #CFACAD;
+    border: 4px solid #FFFFFF;
+    padding: 12px 45px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.free-from-btn:hover {
+    background-color: #FFFFFF;
+    color: #CFACAD;
+}
+
+.skin-deverse {
+    display: grid;
+    grid-template: 1fr / 1fr 720px;
+}
+
+.skin-info {
+    text-align: center;
+    padding-top: 366.84px;
+    width: 720px;
+}
+
+.info-head h4 {
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 44px;
+    color: #B88987;
+}
+
+.info-text {
+    margin: 34px 92px 42px 93px;
+}
+
+.info-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.info-btn {
+    background-color: #E6E1D6;
+    border: none;
+    padding: 12px 45px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.info-btn:hover {
+    background-color: #B88987;
+    color: #FFFFFF;
+}
+
+.story {
+    background-color: #E6E1D6;
+    display: grid;
+    grid-template: 1fr / 720px 1fr;
+}
+
+.blog {
+    margin-top: 100.27px;
+    margin-bottom: 28px;
+}
+
+.blog-header {
+    margin-bottom: 49.27px;
+}
+
+.blog-header h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #B88987;
+}
+
+.blog-list {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    margin: 0 53px;
+}
+
+.blog-item-img {
+    text-align: center;
+}
+
+.blog-item {
+    width: 443.88px;
+    padding-right: 1rem;
+}
+
+.blog-item:last-child {
+    padding-right: 0;
+}
+
+.blog-item-head {
+    margin-top: 34px;
+}
+
+.blog-item-head h5 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    color: #B88987;
+}
+
+.blog-item-date {
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.blog-item-date {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.blog-item-info {
+    margin-bottom: 14px;
+}
+
+.blog-item-info:last-child {
+    margin-bottom: 49px;
+}
+
+.blog-item-info p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.blog-item-more a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ECB1B0;
+}
+
+/* ---------------------------FOOTER----------------------------------*/
+
+.footer {
+    background-color: #CFACAD;
+    display: grid;
+    justify-content: center;
+    padding: 50px 15px;
+}
+
+.footer-list {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+.footer-list a {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-right: 30px;
+}
+
+.footer-list a:last-child {
+    padding-right: 0;
+}
+
+.icons {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.icons i {
+    padding-right: 15px;
+    color: #FFFFFF;
+}
+
+.icons i:last-child {
+    padding-right: 0;
+}
+
+.footer-list a:hover,
+.icons i:hover {
+    opacity: 0.5;
+    color: #000000;
+}
+
+.footer-info p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
